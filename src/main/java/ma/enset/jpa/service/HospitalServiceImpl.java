@@ -1,14 +1,14 @@
 package ma.enset.jpa.service;
 
 import jakarta.transaction.Transactional;
-import ma.enset.hospital.entities.Consultation;
-import ma.enset.hospital.entities.Medecin;
-import ma.enset.hospital.entities.Patient;
-import ma.enset.hospital.entities.RendezVous;
-import ma.enset.hospital.repositories.ConsultationRepository;
-import ma.enset.hospital.repositories.MedecinRepository;
-import ma.enset.hospital.repositories.PatientRepository;
-import ma.enset.hospital.repositories.RendezVousRepository;
+import ma.enset.jpa.entities.Consultation;
+import ma.enset.jpa.entities.Medecin;
+import ma.enset.jpa.entities.Patient;
+import ma.enset.jpa.entities.RendezVous;
+import ma.enset.jpa.repositories.ConsultationRepository;
+import ma.enset.jpa.repositories.MedecinRepository;
+import ma.enset.jpa.repositories.PatientRepository;
+import ma.enset.jpa.repositories.RendezVousRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

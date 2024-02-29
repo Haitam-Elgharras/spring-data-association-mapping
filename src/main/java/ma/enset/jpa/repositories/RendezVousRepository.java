@@ -1,6 +1,6 @@
 package ma.enset.jpa.repositories;
 
-import ma.enset.hospital.entities.RendezVous;
+import ma.enset.jpa.entities.RendezVous;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RendezVousRepository extends JpaRepository<RendezVous, Long> {
