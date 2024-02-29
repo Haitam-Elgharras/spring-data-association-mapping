@@ -1,7 +1,6 @@
 package ma.enset.jpa.repositories;
 
-
-import ma.enset.jpa.entities.Patient;
+import ma.enset.hospital.entities.Patient;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface PatientRepository extends JpaRepository<Patient, String> {
